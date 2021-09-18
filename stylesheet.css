@@ -1,0 +1,88 @@
+*, html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #E1E5EE;
+}
+#headerwrap {
+    background-color: #C7CCDB;
+}
+#titleWrap {
+    text-align: center;
+    color: #BF0603;
+    margin-bottom: 3%;
+}
+#navWrap {
+    margin-left: 2%;
+}
+.navbutton {
+    border-right: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    background-color: #C7CCDB;
+    padding-right: 10px;
+    padding-left: 20px;
+    font-family: "Garamond", serif;
+    font-size: 14px;
+    color: #86918d;
+    display: inline-block;
+}
+.navbutton:hover {
+    cursor: pointer;
+    background-color: #BF0603;
+    color: #89cfe8;
+    transition: 1s;
+}
+.quote {
+    font-style: oblique;
+    font-family: "XanhMono";
+    font-size: 90%;
+    color: rgba(50, 119, 168, 0.78);
+}
+@font-face {
+font-family: "XanhMono";
+src: url("XanhMono-Regular.ttf");
+src: url("XanhMono-Regular.ttf") format("woff"),
+}
+#thefool {
+    width: 200px;
+    height: 300px;
+    border: 0px;
+}
+.foolbg {
+     background-image: url(https://upload.wikimedia.org/wikipedia/en/9/90/RWS_Tarot_00_Fool.jpg);
+    background-size: 200px 300px;
+}
+.flipsidefool {
+     background-image: url(https://1.bp.blogspot.com/-WAmKQvOKMzA/YS3ArDCjFUI/AAAAAAAALpQ/vWPLPj_E61wakinhfb43gnHXpc8dSrYcgCLcBGAsYHQ/s1350/moth%2Blarge.jpg);
+    background-size: 200px 300px;
+}
+.foolbg:hover {
+    filter: grayscale(1);
+    transition: 1s;
+    cursor: pointer;
+}
+.flipsidefool {
+    filter:grayscale(0) !important;
+}
+#flipsidefool {
+    width: 20%;
+    float:right;
+}
+.hidden {
+    display:none;
+}
+.paragraph1 {
+    width: 50%;
+}
+h1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+article {
+    background-color: rgba(199, 204, 219, 0.5);
+    text-align: center;
+}

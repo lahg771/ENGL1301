@@ -26,7 +26,7 @@ body {
     font-family: "Garamond", serif;
     font-size: 14px;
     color: #86918d;
-    display: inline-block;
+    text-align: center;
 }
 .navbutton:hover {
     cursor: pointer;

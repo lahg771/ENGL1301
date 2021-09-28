@@ -65,7 +65,6 @@ p {
     box-sizing: border-box;
     border: 1px solid #003c74;
     box-shadow: none;
-    border-radius: 3px;
     background:
     linear-gradient (
     180deg,
@@ -76,8 +75,9 @@ p {
     border-color: #91a7b4;
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
-    &:hover {
+}
+.tab:hover {
       border-top: 1px solid #e68b2c;
       box-shadow: inset 0px 2px #ffc73c;
-    }
+      cursor: pointer;
 }

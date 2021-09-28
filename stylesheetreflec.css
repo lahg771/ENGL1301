@@ -65,19 +65,14 @@ p {
     box-sizing: border-box;
     border: 1px solid #003c74;
     box-shadow: none;
-    background:
-    linear-gradient (
-    180deg,
-    rgba(225, 225, 225, 1) 0%,
-    rgba(250, 250, 249, 1) 26%,
-    rgba(240, 240, 234, 1) 95%,
-    rgba(236, 235, 229, 1) 100%);
+    padding: 5px;
+    background-image: linear-gradient(#5CC8FF, #ADE4FF);
     border-color: #91a7b4;
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
 }
 .tab:hover {
-      border-top: 1px solid #e68b2c;
-      box-shadow: inset 0px 2px #ffc73c;
+      border-top: 1px solid #0267C1;
+      box-shadow: inset 0px 2px 1px #0267C1;
       cursor: pointer;
 }

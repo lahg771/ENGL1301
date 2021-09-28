@@ -5,4 +5,13 @@ $( document ).ready(function() {
         $("#authdesc").toggleClass("hidden");
         $("#webdesc").toggleClass("hidden");
 });
+		$("#series1").click(function(){
+    	$("#multimodal").toggleClass("hidden");
+       if ($("#multimodal").hasClass("hidden")) {
+    	$("#multimodallit").toggleClass("hidden");
+    }
+    });
+    $("#mml").click(function(){
+    	$("#multimodallit").toggleClass("hidden");
+    });
 });

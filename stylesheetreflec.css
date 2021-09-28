@@ -61,6 +61,11 @@ p {
     color: #D6D6D6;
 }
 .tab {
+    font-size: 11px;
+    box-sizing: border-box;
+    border: 1px solid #003c74;
+    box-shadow: none;
+    borde-radius: 3px;
     background:
     linear-gradient (
     180deg,

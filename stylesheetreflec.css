@@ -50,12 +50,16 @@ src: url("XanhMono-Regular.ttf") format("woff");
 article {
     text-align: center;
     padding-top: 10%;
+    float: right;
 }
 h1 {
     color: rgba(180, 210, 231, 0.7);
 }
 h3 {
     color: rgba(180, 210, 231, 1);
+}
+h4 {
+  color: #E7E5DA;
 }
 p {
     color: #D6D6D6;
@@ -75,4 +79,16 @@ p {
       border-top: 1px solid #0267C1;
       box-shadow: inset 0px 2px 1px #0267C1;
       cursor: pointer;
+}
+#bodyody {
+  background-color: rgba(231, 229, 218, 0.4);
+}
+.hidden {
+  display: none;
+}
+.clickable {
+  cursor: pointer !important;
+}
+#multimodal {
+  float: left;
 }

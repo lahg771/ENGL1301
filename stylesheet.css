@@ -95,22 +95,26 @@ img {
   text-align: center;
 }
 footer {
-   background-image: linear-gradient(180deg, #9DA2D1 65%, #737799);
+   background-image: linear-gradient(180deg, rgba(6, 11, 61, 0.9) 65%, rgb(42, 51, 128));
+   position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: 5% auto;
+  margin-right: 5% auto;
+  color: #9DA2D1;
 }
 .footer {
   color: #5A69E8;
 }
-a:link {
+a {
   color: #4C56B0;
   text-decoration: none;
 }
 a:visited {
   color: #4C56B0;
-  text-decoration: none;
+  text-decoration:none;
 }
 a:hover {
-  color: #2A3380;
-}
-a:active {
-  color: #2A3380;
+  color: #FFE74C;
 }

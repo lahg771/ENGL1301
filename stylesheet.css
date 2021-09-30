@@ -91,3 +91,26 @@ article {
 img {
   image-rendering: pixelated;
 }
+.center {
+  text-align: center;
+}
+footer {
+   background-image: linear-gradient(180deg, #9DA2D1 65%, #737799);
+}
+.footer {
+  color: #5A69E8;
+}
+a:link {
+  color: #4C56B0;
+  text-decoration: none;
+}
+a:visited {
+  color: #4C56B0;
+  text-decoration: none;
+}
+a:hover {
+  color: #2A3380;
+}
+a:active {
+  color: #2A3380;
+}

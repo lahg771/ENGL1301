@@ -86,7 +86,7 @@ h3 {
 article {
     background-color: rgba(199, 204, 219, 0.5);
     text-align: center;
-    margin-top: 10%;
+    padding-top: 10%;
 }
 img {
   image-rendering: pixelated;

@@ -88,3 +88,6 @@ article {
     text-align: center;
     margin-top: 10%;
 }
+img {
+  image-rendering: pixelated;
+}

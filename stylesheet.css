@@ -3,10 +3,10 @@
   padding: 0;
 }
 body {
-  background-color: #1e1e1e;
+  background-color: #E1E5EE;
 }
 #headerwrap {
-    background-color: #140000;
+    background-color: #C7CCDB;
 }
 #titleWrap {
     text-align: center;
@@ -21,7 +21,7 @@ body {
     border-right: 0px;
     border-top: 0px;
     border-left: 0px;
-    background-color: #140000;
+    background-color: #C7CCDB;
     padding-right: 10px;
     padding-left: 20px;
     font-family: "Garamond", serif;
@@ -39,60 +39,52 @@ body {
     font-style: oblique;
     font-family: "XanhMono";
     font-size: 90%;
-    color: #A1A6B4;
+    color: rgba(50, 119, 168, 0.78);
 }
-
 @font-face {
 font-family: "XanhMono";
 src: url("XanhMono-Regular.ttf");
-src: url("XanhMono-Regular.ttf") format("woff");
+src: url("XanhMono-Regular.ttf") format("woff"),
 }
-article {
-    text-align: center;
-    padding-top: 10%;
-    display: inline-block;
-    float: right;
-    z-index: -1;
+#thefool {
+    width: 200px;
+    height: 300px;
+    border: 0px;
 }
-h1 {
-    color: rgba(180, 210, 231, 0.7);
+.foolbg {
+     background-image: url(https://upload.wikimedia.org/wikipedia/en/9/90/RWS_Tarot_00_Fool.jpg);
+    background-size: 200px 300px;
 }
-h3 {
-    color: rgba(180, 210, 231, 1);
+.flipsidefool {
+     background-image: url(https://1.bp.blogspot.com/-WAmKQvOKMzA/YS3ArDCjFUI/AAAAAAAALpQ/vWPLPj_E61wakinhfb43gnHXpc8dSrYcgCLcBGAsYHQ/s1350/moth%2Blarge.jpg);
+    background-size: 200px 300px;
 }
-h4 {
-  color: #E7E5DA;
+.foolbg:hover {
+    filter: grayscale(1);
+    transition: 1s;
+    cursor: pointer;
 }
-p {
-    color: #D6D6D6;
+.flipsidefool {
+    filter:grayscale(0) !important;
 }
-.tab {
-    font-size: 11px;
-    box-sizing: border-box;
-    border: 1px solid #003c74;
-    box-shadow: none;
-    padding: 5px;
-    background-image: linear-gradient(#5CC8FF, #ADE4FF);
-    border-color: #91a7b4;
-    border-top-right-radius: 3px;
-    border-top-left-radius: 3px;
-}
-.tab:hover {
-      border-top: 1px solid #0267C1;
-      box-shadow: inset 0px 2px 1px #0267C1;
-      cursor: pointer;
-}
-#bodyody {
-  background-color: rgba(231, 229, 218, 0.4);
+#flipsidefool {
+    width: 20%;
+    float:right;
 }
 .hidden {
-  display: none;
+    display:none;
 }
-.clickable {
-  cursor: pointer !important;
+.paragraph1 {
+    width: 50%;
 }
-#multimodal {
-  float: left;
-  z-index: 0;
-  display: inline-block;
+h1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+article {
+    background-color: rgba(199, 204, 219, 0.5);
+    text-align: center;
+    margin-top: 10%;
 }
